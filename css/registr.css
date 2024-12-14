@@ -1,0 +1,77 @@
+.container_registr {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .avatar {
+    margin-bottom: 20px;
+  }
+  
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Make it a circle */
+    object-fit: cover;
+  }
+  
+  
+  .content {
+    width: 300px; 
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .content div {
+    margin-bottom: 15px;
+  }
+  
+  .content input[type="text"],
+  .content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .content input[type="text"]:focus,
+  .content input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .content button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .content button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  .id {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  
+  
+  @media (max-width: 400px) {
+    .content {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,10 @@
+
+.photo{
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+.container_3 {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; 
+  }
+  
+  .line hr {
+    border: 1px solid #ccc; 
+    margin: 20px 0; 
+  }
+  
+  
+  .information h3 {
+    margin-bottom: 10px;
+    color: #333; 
+  }
+  
+  .reviews h1 {
+    color: #333; 
+  }
+  
+  
+  
+  .information, .reviews {
+    padding: 10px;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .container_3 {
+      text-align: center; 
+    }
+  
+    .information, .reviews {
+      margin-bottom: 15px; 
+    }
+  }
+  

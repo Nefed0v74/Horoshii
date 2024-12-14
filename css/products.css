@@ -1,0 +1,90 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .tomato, .banana, .oaklef, .kinder, .bay_leaf, .tess, .blaser, .oreo,
+  .cucumber, .sanokado, .pasley, .ritter_sport, .pepper, .riston, .kimbo, .love,
+  .watermelon, .garnet, .dill, .milka, .mustard_seeds, .may, .molinari, .clever,
+  .carrot, .grape, .romano, .merci, .ground_cinnamon, .richard, .ambassador, .bryakonfi,
+  .pumpkin, .GreenApple, .radicchio, .red, .ginger, .nuri, .lavazza, .cow,
+  .melon, .RedApple, .lettuce, .royal_forest, .nutmeg_opex, .tazo, .carraro, .one,
+  .eggplant, .limon, .frisse, .spartak, .anise, .greenfield, .julius_meinl, .forsite,
+  .onion, .orange, .korn, .maitre, .cardamon, .lipton, .pauling, .anniversary,
+  .turnip, .pear, .watercress, .air, .almond, .typhoo, .black_card, .milka,
+  .horseradish, .tangerine, .arugula, .babaevskiy, .mint, .curtis, .jacobs, .elza,
+  .peas, .trailfruit, .lollo_rosso, .alpen_gold, .rosemary, .ahmad, .nescafe, .city,
+  .cabbage, .zamanas, .iceberg, .alenka, .turmeric, .dilmah, .tassimo, .slodich {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+  }
+  
+  
+  .img {
+      width: 100%;
+      height: 100px;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .name p {
+    padding: 10px;
+    margin: 0; 
+  }
+  
+  .name h3 {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .tomato,
+    .cucumber,
+    .watermelon,
+    .carrot,
+    .pumpkin,
+    .melon,
+    .eggplant,
+    .onion,
+    .turnip,
+    .horseradish,
+    .peas,
+    .cabbage {
+      width: 45%; 
+    }
+  }
+  
+  
+  .content > div {  
+      margin-bottom: 15px;
+  }
+  
+  
+  .content {
+    background-color: #f9f9f9; 
+  }
+  
+  .img img {
+    border-radius: 5px;
+  }
+  
+  .tomato, .cucumber, .watermelon, .carrot, .pumpkin, .melon, .eggplant, .onion, .turnip, .horseradish, .peas, .cabbage{
+      background-color: #fff;  
+  }
+  
+  .name h3 {
+      color: #007bff;  
+  }

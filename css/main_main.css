@@ -1,0 +1,101 @@
+main {
+  display: flex;
+  min-height: 100vh; /* Ensure main fills the viewport height */
+}
+
+.container_2 {
+  width: 90%; /* Adjust as needed to fit within main */
+  margin: 20px auto; /* Center horizontally */
+  display: flex; /* Use flexbox for two-column layout */
+}
+
+.advertisement {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width */
+}
+.adv_1{
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+}
+.adv_1 img{
+  width: 300px;
+  border-radius: 5px;
+}
+.text_adv{
+  text-align: center;
+  font-size: large;
+}
+
+.advertisement h1 {
+  margin: 0;
+}
+
+.products {
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Stack products vertically */
+}
+
+.products_1 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.products_1 h1 {
+  margin: 0;
+}
+
+.vegetables, .fruits, .greens, .chocolate, .seasonings, .tea, .coffee, .cookies {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  display: flex; /* Use flexbox for better image/text arrangement */
+  align-items: center; /* Vertically align items */
+}
+
+.main-image {
+  flex: 1 0 0; /* Take available space */
+  width: 100px; /* Adjust image size as needed */
+  height: 100px;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.title1 {
+  flex: 1; 
+  padding-left: 10px;
+  text-align: right;
+  padding-right: 10%;
+}
+
+.title1 h3 {
+  margin: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .container_2 {
+    flex-direction: column; 
+  }
+  .advertisement, .products {
+    width: 100%; 
+  }
+}

@@ -1,0 +1,28 @@
+.content{
+    display: flex;
+    padding: 40px;
+}
+.discount, .stock{
+    width: 400px;
+    height: 400px;
+    border: 3px solid #ddd;
+    text-align: center;
+    flex-direction: row;
+}
+.discount p, .stock p{
+   border: 1px solid #ddd;
+
+}
+.discount ul{
+    margin-top: 20%;
+}
+.discount li{
+    list-style: none;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    width: 45%;
+}
+.stock{
+    margin-left: 50%;
+}

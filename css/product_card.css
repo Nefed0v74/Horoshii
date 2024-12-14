@@ -1,0 +1,140 @@
+main {
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+nav {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.conatainer_product {
+  padding: 20px;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-color: #ccc;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  place-items: center;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+.text h3,
+.text h4 {
+  margin: 5px 0;
+}
+
+.text h1 {
+  font-size: 2em;
+  color: #007bff;
+  margin: 15px 0;
+}
+
+.but {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.but input[type="text"] {
+  width: 100px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.but button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.but button:hover {
+  background-color: #0069d9;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#myModal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Footer Styles (footer_main.css) */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .product-card {
+      width: 90%;
+  }
+}
